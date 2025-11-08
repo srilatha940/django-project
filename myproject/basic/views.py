@@ -22,7 +22,7 @@ def sample2(request):
 #     name=request.GET.get("name","")
 #     return HttpResponse(f"hello {name} how are you")
 
-def  addition(request):
+def addition(request):
     num1=request.GET.get("num1")
     num2=request.GET.get("num2")
     num1=int(num1)
@@ -36,7 +36,7 @@ def  addition(request):
 #     num1=int(num1)
 #     num2=int(num2)
 #     result=num1-num2
-#     return HttpResponse(f"Subtraction = {result}")
+    # return HttpResponse(f"Subtraction = {result}")
 
 # def multiplication(request):
 #     num1=request.GET.get("num1")

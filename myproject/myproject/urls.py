@@ -30,5 +30,5 @@ urlpatterns = [
     # path('info',sampleInfo),
     path('info2',sample2),
     # path('dynamic/',dynamicResponse,name='dynamicResponse')
-    path('add',addition,name="addition")
+    path('add',addition)
 ]
